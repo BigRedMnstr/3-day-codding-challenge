@@ -73,6 +73,19 @@
         </div>
     </section>
 
+    <section class="contact-section container">
+        <form action="form.php" method="post">
+            <label for="name">Imię</label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required>
+            <label for="message">Wiadomość</label>
+            <textarea name="message" id="message" rows="3" required></textarea>
+            <input type="submit" name="submit" value="Wyślij">
+            <input type="reset" name="submit" value="Usuń dane">
+        </form>
+    </section>
+
     <footer>
         <p>&#169; Strona stworzona przez MiKu Dev</p>
     </footer>

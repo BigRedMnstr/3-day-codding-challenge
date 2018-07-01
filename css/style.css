@@ -187,3 +187,95 @@ nav ul li:hover > ul {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.icon-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 40px auto;
+}
+
+.icon {
+    display: block;
+    width: 200px;
+    -webkit-box-shadow: 4px 4px 24px 1px rgba(102, 184, 196, 0.75);
+    -moz-box-shadow: 4px 4px 24px 1px rgba(102, 184, 196, 0.75);
+    box-shadow: 4px 4px 24px 1px rgba(102, 184, 196, 0.75);
+    text-align: center;
+}
+
+.icon i {
+    font-size: 50px;
+    color: #e00986;
+    padding: 15px;
+}
+
+.icon p {
+    font-size: 30px;
+}
+
+.icon p span {
+    font-size: 18px;
+}
+
+footer {
+    background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9);
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color:
+}
+
+.contact-section {
+    -webkit-box-shadow: 4px 4px 24px 1px rgba(224, 9, 134, 0.75);
+    -moz-box-shadow: 4px 4px 24px 1px rgba(224, 9, 134, 0.75);
+    box-shadow: 4px 4px 24px 1px rgba(224, 9, 134, 0.75);
+    margin: 40px auto;
+    max-width: 600px;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    margin: 10px auto;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #66b8c4;
+}
+
+textarea {
+    height: 100px;
+    width: 400px;
+    border: 1px solid #66b8c4;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="submit"],
+[type="reset"] {
+    margin: 30px auto;
+    cursor: pointer;
+    max-width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background: #f29cd9;
+    display: inline-block;
+    border: 1px solid #e00986;
+}
+
+}
