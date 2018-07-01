@@ -300,8 +300,8 @@ input[type="submit"],
 
 .slick-dots {
     bottom: 0px;
+    right: 5px;
 }
-
 .slick-next {
     right: 25px;
 }
