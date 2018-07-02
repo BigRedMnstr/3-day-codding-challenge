@@ -113,7 +113,7 @@ nav ul li:hover > ul {
 
 .yellow-text {
     font-size: 40px;
-    color: #fbb619!important;
+    color: #fbb619 !important;
 }
 
 .container {
@@ -371,5 +371,9 @@ input[type="submit"],
     }
     textarea {
         width: 200px;
+    }
+    .scrollup {
+        right: 30px;
+        bottom: 40px;
     }
 }
